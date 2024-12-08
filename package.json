@@ -1,10 +1,10 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,15 +14,25 @@
     "bcrypt": "^5.1.1",
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
+    "cookieparser": "^0.1.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
+    "dotenv": "^16.4.7",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "mongo": "^0.1.0",
     "mongoose": "^8.4.4",
-    "nodemon": "^3.1.4",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raaz23/backend_recipe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/raaz23/backend_recipe/issues"
+  },
+  "homepage": "https://github.com/raaz23/backend_recipe#readme",
   "description": ""
 }
